@@ -5,6 +5,9 @@
 body{
     position: relative;
 }
+/* ****************************************
+Header Part Start
+******************************************* */
 header{
     background-color: #221F18;
     color:#FFFFFF;
@@ -14,18 +17,36 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:10px 0;
+    
 }
-
+header #logo{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 150px;
+    font-size: 16px;
+    font-weight: 600;
+}
 header #logo span{
     color:#D6742F;
 }
 nav ul{
     display: flex;
+    padding-right: 140px;
 }
 nav ul li{
     list-style: none;
+    padding:0 25px;
 }
 nav ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     text-decoration: none;
     color:#FFFFFF;
 }
+nav ul li a:hover{
+    color:rgb(255,0,0);
+}
+/* ****************************************
+Header Part Finish
+******************************************* */
