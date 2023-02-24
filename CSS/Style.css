@@ -361,3 +361,31 @@ Sublist Part Start
 /* ****************************************
 Sublist Part Start
 ******************************************* */
+/* ****************************************
+Standard Part Start
+******************************************* */
+.standard-container{
+    background-color: rgb(245,245,245);
+    padding: 80px 0;
+}
+.standard-part{
+    display: flex;
+    justify-content: space-evenly;
+}
+.standard-part .standard-contain .line{
+    width: 70px;
+    height: 2px;
+    margin: 20px 0px;
+    background-color: rgb(255,139,56);
+    border-radius: 5px;
+}
+.standard-part .standard-contain p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(128,128,128);
+    width: 560px;
+}
+/* ****************************************
+Standard Part Finish
+******************************************* */
