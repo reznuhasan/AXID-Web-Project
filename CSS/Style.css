@@ -50,3 +50,139 @@ nav ul li a:hover{
 /* ****************************************
 Header Part Finish
 ******************************************* */
+/* ****************************************
+Banner Part Finish
+******************************************* */
+#banner-part{
+    background-image: url("../assets/banner.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    color:#FFFFFF;
+    display: flex;
+}
+#banner-part .template-part{
+    width: 42%;
+    padding-left: 130px;
+    margin-top: 110px;
+
+}
+#banner-part .template-part h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 700;  
+}
+
+#banner-part .template-part h1 span{
+    color:#D6742F;
+}
+#banner-part .template-part h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    width: 550px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#banner-part .template-part .line{
+    width: 100px;
+    height: 3px;
+    margin: 20px 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+#banner-part .template-part p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color:rgb(164,156,156);
+
+}
+#banner-part .template-part .btn{
+    background-color: transparent;
+    margin-top:40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 5px 20px;
+    border-color: white;
+    border-width: 1px;
+}
+#banner-part .template-part .btn:hover{
+    background-color: rgb(255,0,0);
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: 1s;
+    border: none;
+    border-radius: 3px;
+}
+#banner-part .form-part{
+    width: 280px;
+    height: 320px;
+    background-color: white;
+    margin-top: 140px;
+    margin-left: 20px;
+    border-radius: 10px;
+   
+}
+#banner-part .form-part .heading{
+    background-color: rgb(247,247,247);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#banner-part .form-part .heading h1{
+    color:rgb(33,37,41);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px 5px;
+}
+#banner-part .form-part .heading h1 span{
+    color:#D6742F;
+    text-transform: uppercase;
+}
+
+#banner-part .form-part .fullLine{
+    width: 100%;
+    height: 1px;
+    background-color: #D6742F;
+}
+#banner-part .form-part .input-field{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#banner-part .form-part .input-field input{
+    width: 80%;
+    margin: 18px 0px;
+    border: none;
+    border-bottom: 1px solid black; 
+    padding:10px 0px;
+}
+#banner-part .form-part .input-field input::placeholder{
+    color:rgb(33,37,41);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+#banner-part .form-part .startBtn{
+    width: 100%;
+}
+#banner-part .form-part .startBtn button{
+    width: 100%;
+    border: none;
+    background-color: #D6742F;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 14px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
