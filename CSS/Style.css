@@ -58,7 +58,7 @@ nav ul li a:hover{
 Header Part Finish
 ******************************************* */
 /* ****************************************
-Banner Part Finish
+Banner Part Start
 ******************************************* */
 #banner-part{
     background-image: url("../assets/banner.png");
@@ -133,7 +133,7 @@ Banner Part Finish
     width: 280px;
     height: 320px;
     background-color: white;
-    margin-top: 140px;
+    margin-top: 160px;
     margin-left: 160px;
     border-radius: 10px;
    
@@ -195,3 +195,45 @@ Banner Part Finish
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/* ****************************************
+Banner Part Finish
+******************************************* */
+/* ****************************************
+Social Media Part Start
+******************************************* */
+.social-media{
+    display: flex;
+    align-items: center;
+    padding:20px 0;
+}
+.social-media .social-media-content{
+    width: 360px;
+}
+.social-media .social-media-content h1{
+    color:rgb(33,37,41);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+.social-media .social-media-content p{
+    color:rgb(128,128,128);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    
+}
+.social-media .social-icons a i{
+    font-size: 45px;
+    font-weight: 400;
+    color:#a4a5a8;
+    padding:0 30px;
+}
+.social-media .social-icons a i:hover{
+    color:rgb(0,0,255);
+}
+/* ****************************************
+Social Media Part Finish
+******************************************* */
