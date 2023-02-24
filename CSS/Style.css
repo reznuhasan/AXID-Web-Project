@@ -204,7 +204,7 @@ Social Media Part Start
 .social-media{
     display: flex;
     align-items: center;
-    padding:20px 0;
+    padding:15px 0;
 }
 .social-media .social-media-content{
     width: 360px;
@@ -225,14 +225,25 @@ Social Media Part Start
     line-height: 21px;
     
 }
+.social-media .social-icons{
+    display: flex;
+    align-items: center;
+}
+.social-media .social-icons .val{
+    width: 120px;
+    height: 70px;
+    margin-top: 9px;
+}
 .social-media .social-icons a i{
     font-size: 45px;
     font-weight: 400;
     color:#a4a5a8;
-    padding:0 30px;
+    padding:5px 30px;
 }
 .social-media .social-icons a i:hover{
     color:rgb(0,0,255);
+    font-size: 50px;
+    transition: 0.2s;
 }
 /* ****************************************
 Social Media Part Finish
@@ -240,8 +251,11 @@ Social Media Part Finish
 /* ****************************************
 Tab Part Start
 ******************************************* */
+.tab-container{
+    background-color: rgb(245,245,245);
+    padding: 120px 0;
+}
 .tab-part{
-    margin-top: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -258,7 +272,7 @@ Tab Part Start
     margin-bottom: 5px;
     border: none;
 }
-.tab-part .tab-btn .btn:active{
+.tab-part .tab-btn .active{
     background-color: #D6742F;
 }
 .tab-part .tab-content{
