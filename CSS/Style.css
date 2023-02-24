@@ -314,3 +314,50 @@ Tab Part Start
 /* ****************************************
 Tab Part Finish
 ******************************************* */
+/* ****************************************
+Sublist Part Start
+******************************************* */
+.sublist-container{
+    background-color: rgb(255,255,255);
+    padding: 100px 0;
+}
+.sublist-part{
+    display: flex;
+    justify-content: space-between;
+}
+.sublist-part .sublist-contain p{
+    width: 560px;
+}
+.sublist-part .sublist-contain .line{
+    width: 70px;
+    height: 2px;
+    margin: 20px 0px;
+    background-color: rgb(255,139,56);
+    border-radius: 5px;
+}
+.sublist-part .sublist-contain p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(128,128,128);
+}
+.sublist-part .sublist-contain .icon-list{
+    display: flex;
+    margin-top: 40px;
+}
+.sublist-part .sublist-contain .icon-list p{
+    padding-left: 8px;
+}
+.sublist-part .sublist-contain .icon-list .icon-box{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #D6742F;
+    color:#D6742F;
+}
+/* ****************************************
+Sublist Part Start
+******************************************* */
