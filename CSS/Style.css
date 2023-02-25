@@ -389,3 +389,73 @@ Standard Part Start
 /* ****************************************
 Standard Part Finish
 ******************************************* */
+/* ****************************************
+Awesome Part Start
+******************************************* */
+.heading-box{
+    width: 45%;
+    margin: 40px auto;
+    text-align: center;
+}
+.heading-box h1{
+    color:rgb(33,37,41);
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+.heading-box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(128,128,128);
+}
+.heading-box .line{
+    width: 100px;
+    height: 3px;
+    margin: 20px 0px;
+    background-color: rgb(255,139,56);
+    border-radius: 5px;
+    margin: 25px auto;
+}
+.Awesome-Part .content-box-part{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.Awesome-Part .content-box-part .content-box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Awesome-Part .content-box-part .content-box .circle{
+    width: 50px;
+    height: 50px;
+    border:2px solid rgb(255, 139, 56);
+    color:rgb(255, 139, 56);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.Awesome-Part .content-box-part .content-box h1{
+    color:rgb(33,37,41);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 10px;
+}
+
+.Awesome-Part .content-box-part .content-box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(128,128,128);
+    
+}
+/* ****************************************
+Awesome Part Finish
+******************************************* */
