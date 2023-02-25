@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     position: relative;
 }
+
 /* ****************************************
 Header Part Start
 ******************************************* */
-header{
+header {
     background-color: #221F18;
     color: #FFFFFF;
     width: 100%;
@@ -17,100 +19,116 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.container{
+
+.container {
     width: 1140px;
     margin: 0 auto;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px 0;
+    padding: 10px 0;
 }
-header #logo{
+
+header #logo {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
-header #logo span{
-    color:#D6742F;
+
+header #logo span {
+    color: #D6742F;
 }
-nav ul{
+
+nav ul {
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    padding:0 25px;
+    padding: 0 25px;
 }
-nav ul li a{
+
+nav ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-nav ul li a:hover{
-    color:rgb(255,0,0);
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
 }
+
 /* ****************************************
 Header Part Finish
 ******************************************* */
 /* ****************************************
 Banner Part Start
 ******************************************* */
-#banner-part{
+#banner-part {
     background-image: url("../assets/banner.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-position: contain;
     width: 100%;
-    
+
 }
-#banner-part .banner-content{
+
+#banner-part .banner-content {
     display: flex;
     color: white;
 }
-#banner-part .template-part{
+
+#banner-part .template-part {
     width: 42%;
     margin-top: 110px;
 }
-#banner-part .template-part h1{
+
+#banner-part .template-part h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 55px;
-    font-weight: 700;  
+    font-weight: 700;
 }
 
-#banner-part .template-part h1 span{
-    color:#D6742F;
+#banner-part .template-part h1 span {
+    color: #D6742F;
 }
-#banner-part .template-part h2{
+
+#banner-part .template-part h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     width: 550px;
     font-weight: 600;
     text-transform: uppercase;
 }
-#banner-part .template-part .line{
+
+#banner-part .template-part .line {
     width: 100px;
     height: 3px;
     margin: 20px 0px;
     background-color: white;
     border-radius: 5px;
 }
-#banner-part .template-part p{
+
+#banner-part .template-part p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     width: 550px;
-    color:rgb(164,156,156);
+    color: rgb(164, 156, 156);
 
 }
-#banner-part .template-part .btn{
+
+#banner-part .template-part .btn {
     background-color: transparent;
-    margin-top:40px;
+    margin-top: 40px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -119,8 +137,9 @@ Banner Part Start
     border-color: white;
     border-width: 1px;
 }
-#banner-part .template-part .btn:hover{
-    background-color: rgb(255,0,0);
+
+#banner-part .template-part .btn:hover {
+    background-color: rgb(255, 0, 0);
     padding-left: 22px;
     padding-right: 22px;
     padding-top: 6px;
@@ -129,141 +148,161 @@ Banner Part Start
     border: none;
     border-radius: 3px;
 }
-#banner-part .form-part{
+
+#banner-part .form-part {
     width: 280px;
     height: 320px;
     background-color: white;
     margin-top: 160px;
     margin-left: 160px;
     border-radius: 10px;
-   
+
 }
-#banner-part .form-part .heading{
-    background-color: rgb(247,247,247);
+
+#banner-part .form-part .heading {
+    background-color: rgb(247, 247, 247);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
-#banner-part .form-part .heading h1{
-    color:rgb(33,37,41);
+
+#banner-part .form-part .heading h1 {
+    color: rgb(33, 37, 41);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
     padding: 8px 5px;
 }
-#banner-part .form-part .heading h1 span{
-    color:#D6742F;
+
+#banner-part .form-part .heading h1 span {
+    color: #D6742F;
     text-transform: uppercase;
 }
 
-#banner-part .form-part .fullLine{
+#banner-part .form-part .fullLine {
     width: 100%;
     height: 1px;
     background-color: #D6742F;
 }
-#banner-part .form-part .input-field{
+
+#banner-part .form-part .input-field {
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#banner-part .form-part .input-field input{
+
+#banner-part .form-part .input-field input {
     width: 80%;
     margin: 18px 0px;
     border: none;
-    border-bottom: 1px solid black; 
-    padding:10px 0px;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
 }
-#banner-part .form-part .input-field input::placeholder{
-    color:rgb(33,37,41);
+
+#banner-part .form-part .input-field input::placeholder {
+    color: rgb(33, 37, 41);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
     padding-left: 10px;
 }
-#banner-part .form-part .startBtn{
+
+#banner-part .form-part .startBtn {
     width: 100%;
 }
-#banner-part .form-part .startBtn button{
+
+#banner-part .form-part .startBtn button {
     width: 100%;
     border: none;
     background-color: #D6742F;
-    color:white;
+    color: white;
     text-align: center;
     margin-top: 20px;
     padding: 14px 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 /* ****************************************
 Banner Part Finish
 ******************************************* */
 /* ****************************************
 Social Media Part Start
 ******************************************* */
-.social-media{
+.social-media {
     display: flex;
     align-items: center;
-    padding:15px 0;
+    padding: 15px 0;
 }
-.social-media .social-media-content{
+
+.social-media .social-media-content {
     width: 360px;
 }
-.social-media .social-media-content h1{
-    color:rgb(33,37,41);
+
+.social-media .social-media-content h1 {
+    color: rgb(33, 37, 41);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 7px;
 }
-.social-media .social-media-content p{
-    color:rgb(128,128,128);
+
+.social-media .social-media-content p {
+    color: rgb(128, 128, 128);
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    
+
 }
-.social-media .social-icons{
+
+.social-media .social-icons {
     display: flex;
     align-items: center;
 }
-.social-media .social-icons .val{
+
+.social-media .social-icons .val {
     width: 120px;
     height: 70px;
     margin-top: 9px;
 }
-.social-media .social-icons a i{
+
+.social-media .social-icons a i {
     font-size: 45px;
     font-weight: 400;
-    color:#a4a5a8;
-    padding:5px 30px;
+    color: #a4a5a8;
+    padding: 5px 30px;
 }
-.social-media .social-icons a i:hover{
-    color:rgb(0,0,255);
+
+.social-media .social-icons a i:hover {
+    color: rgb(0, 0, 255);
     font-size: 50px;
     transition: 0.2s;
 }
+
 /* ****************************************
 Social Media Part Finish
 ******************************************* */
 /* ****************************************
 Tab Part Start
 ******************************************* */
-.tab-container{
-    background-color: rgb(245,245,245);
+.tab-container {
+    background-color: rgb(245, 245, 245);
     padding: 120px 0;
 }
-.tab-part{
+
+.tab-part {
     display: flex;
     justify-content: space-between;
 }
-.tab-part .tab-btn .btn{
+
+.tab-part .tab-btn .btn {
     width: 150px;
     height: 130px;
-    background-color: rgb(51,51,51);
-    color:white;
+    background-color: rgb(51, 51, 51);
+    color: white;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -272,31 +311,36 @@ Tab Part Start
     margin-bottom: 5px;
     border: none;
 }
-.tab-part .tab-btn .active{
+
+.tab-part .tab-btn .active {
     background-color: #D6742F;
 }
-.tab-part .tab-content{
+
+.tab-part .tab-content {
     display: flex;
 }
-.tab-part .tab-content h1{
-    color:rgb(33,37,41);
+
+.tab-part .tab-content h1 {
+    color: rgb(33, 37, 41);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 85px;
 }
-.tab-part .tab-content p{
-    color:rgb(128,128,128);
+
+.tab-part .tab-content p {
+    color: rgb(128, 128, 128);
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     margin-top: 65px;
-    width: 600px; 
+    width: 600px;
     line-height: 21px;
 }
-.tab-part .tab-content .btn{
+
+.tab-part .tab-content .btn {
     background-color: rgb(241, 126, 38);
-    margin-top:76px;
+    margin-top: 76px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -304,51 +348,60 @@ Tab Part Start
     padding: 5px 20px;
     width: 150px;
     border: none;
-    padding:12px 10px;
+    padding: 12px 10px;
     border-radius: 5px;
 }
-.tab-part .tab-content .btn:hover{
-    background-color: rgb(0,0,0);
+
+.tab-part .tab-content .btn:hover {
+    background-color: rgb(0, 0, 0);
     transition: 1s;
 }
+
 /* ****************************************
 Tab Part Finish
 ******************************************* */
 /* ****************************************
 Sublist Part Start
 ******************************************* */
-.sublist-container{
-    background-color: rgb(255,255,255);
+.sublist-container {
+    background-color: rgb(255, 255, 255);
     padding: 100px 0;
 }
-.sublist-part{
+
+.sublist-part {
     display: flex;
     justify-content: space-between;
 }
-.sublist-part .sublist-contain p{
+
+.sublist-part .sublist-contain p {
     width: 560px;
 }
-.sublist-part .sublist-contain .line{
+
+.sublist-part .sublist-contain .line {
     width: 70px;
     height: 2px;
     margin: 20px 0px;
-    background-color: rgb(255,139,56);
+    background-color: rgb(255, 139, 56);
     border-radius: 5px;
 }
-.sublist-part .sublist-contain p{
+
+.sublist-part .sublist-contain p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 200;
-    color: rgb(128,128,128);
+    color: rgb(128, 128, 128);
 }
-.sublist-part .sublist-contain .icon-list{
+
+.sublist-part .sublist-contain .icon-list {
     display: flex;
     margin-top: 40px;
 }
-.sublist-part .sublist-contain .icon-list p{
+
+.sublist-part .sublist-contain .icon-list p {
     padding-left: 8px;
 }
-.sublist-part .sublist-contain .icon-list .icon-box{
+
+.sublist-part .sublist-contain .icon-list .icon-box {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -356,84 +409,95 @@ Sublist Part Start
     justify-content: center;
     align-items: center;
     border: 3px solid #D6742F;
-    color:#D6742F;
+    color: #D6742F;
 }
+
 /* ****************************************
 Sublist Part Start
 ******************************************* */
 /* ****************************************
 Standard Part Start
 ******************************************* */
-.standard-container{
-    background-color: rgb(245,245,245);
+.standard-container {
+    background-color: rgb(245, 245, 245);
     padding: 80px 0;
 }
-.standard-part{
+
+.standard-part {
     display: flex;
     justify-content: space-evenly;
 }
-.standard-part .standard-contain .line{
+
+.standard-part .standard-contain .line {
     width: 70px;
     height: 2px;
     margin: 20px 0px;
-    background-color: rgb(255,139,56);
+    background-color: rgb(255, 139, 56);
     border-radius: 5px;
 }
-.standard-part .standard-contain p{
+
+.standard-part .standard-contain p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 200;
-    color: rgb(128,128,128);
+    color: rgb(128, 128, 128);
     width: 560px;
 }
+
 /* ****************************************
 Standard Part Finish
 ******************************************* */
 /* ****************************************
 Awesome Part Start
 ******************************************* */
-.heading-box{
+.Awesome-Part .heading-box {
     width: 45%;
     margin: 40px auto;
     text-align: center;
 }
-.heading-box h1{
-    color:rgb(33,37,41);
+
+.Awesome-Part .heading-box h1 {
+    color: rgb(33, 37, 41);
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 500;
 }
-.heading-box p{
+
+.Awesome-Part .heading-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: rgb(128,128,128);
+    color: rgb(128, 128, 128);
 }
-.heading-box .line{
+
+.Awesome-Part .heading-box .line {
     width: 100px;
     height: 3px;
     margin: 20px 0px;
-    background-color: rgb(255,139,56);
+    background-color: rgb(255, 139, 56);
     border-radius: 5px;
     margin: 25px auto;
 }
-.Awesome-Part .content-box-part{
+
+.Awesome-Part .content-box-part {
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
 }
-.Awesome-Part .content-box-part .content-box{
+
+.Awesome-Part .content-box-part .content-box {
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.Awesome-Part .content-box-part .content-box .circle{
+
+.Awesome-Part .content-box-part .content-box .circle {
     width: 50px;
     height: 50px;
-    border:2px solid rgb(255, 139, 56);
-    color:rgb(255, 139, 56);
+    border: 2px solid rgb(255, 139, 56);
+    color: rgb(255, 139, 56);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -441,21 +505,154 @@ Awesome Part Start
     font-size: 25px;
     font-weight: 700;
 }
-.Awesome-Part .content-box-part .content-box h1{
-    color:rgb(33,37,41);
+
+.Awesome-Part .content-box-part .content-box h1 {
+    color: rgb(33, 37, 41);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin: 25px 0 10px;
 }
 
-.Awesome-Part .content-box-part .content-box p{
+.Awesome-Part .content-box-part .content-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: rgb(128,128,128);
-    
+    color: rgb(128, 128, 128);
+
 }
+
 /* ****************************************
 Awesome Part Finish
+******************************************* */
+/* ****************************************
+Pricing Part Start
+******************************************* */
+.Pricing-part {
+    background-color: #F5F5F5;
+    padding: 60px 0;
+}
+
+.Pricing-part .heading-box {
+    width: 45%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.Pricing-part .heading-box h1 {
+    color: rgb(33, 37, 41);
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.Pricing-part .heading-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+}
+
+.Pricing-part .heading-box .line {
+    width: 100px;
+    height: 3px;
+    margin: 20px 0px;
+    background-color: rgb(255, 139, 56);
+    border-radius: 5px;
+    margin: 25px auto;
+}
+
+/* card part start */
+.Pricing-part .card-field {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.Pricing-part .card-field .card {
+    width: 30%;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 2px 4px 23px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 4px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 4px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+.Pricing-part .card-field .card .price-box {
+    background-color: #333333;
+    color: rgb(255, 255, 255);
+}
+
+.Pricing-part .card-field .card .price-box .head-box h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.Pricing-part .card .price-box .fullLine {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Pricing-part .card .price-box .price-content {
+    padding: 35px 0px;
+}
+
+.Pricing-part .card .price-box .price-content h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.Pricing-part .card .price-box .price-content h1 span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 94px;
+    font-weight: 700;
+    line-height: 112.8px;
+}
+
+.Pricing-part .card .price-box .price-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.Pricing-part .card .price-box .boxLine {
+    width: 100%;
+    height: 8px;
+    background-color: #D6742F;
+}
+
+.Pricing-part .card .content-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(33, 37, 41);
+    padding: 10px 0;
+}
+
+/* ************* Popular Box *************** */
+.Pricing-part .card-field .popular {
+    margin-top: -33px;
+}
+
+.Pricing-part .card-field .popular .popular-content {
+    background-color: #D6742F;
+}
+
+.Pricing-part .card-field .popular .popular-content h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 10px 0;
+}
+/* ****************************************
+Pricing Part Finish
 ******************************************* */
