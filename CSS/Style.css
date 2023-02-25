@@ -72,11 +72,11 @@ Header Part Finish
 Banner Part Start
 ******************************************* */
 #banner-part {
-    background-image: url("../assets/banner.png");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: contain;
     width: 100%;
+    background-image: url("../assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 130px;
 
 }
 
@@ -153,7 +153,7 @@ Banner Part Start
     width: 280px;
     height: 320px;
     background-color: white;
-    margin-top: 160px;
+    margin-top: 130px;
     margin-left: 160px;
     border-radius: 10px;
 
