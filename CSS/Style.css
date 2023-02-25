@@ -665,7 +665,7 @@ Stylish Part Start
     background-size: cover;
     padding: 20px 0 50px;
     width: 100%;
-    margin: 30px 0;
+    margin-top:30px;
     
 }
 .stylish-part .heading-box {
@@ -696,6 +696,13 @@ Stylish Part Start
     border-radius: 5px;
     margin: 25px auto;
 }
+
+.stylish-part .download{
+    width: 100;
+    height: 20px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
 .stylish-part .download .btn {
     background-color: transparent;
     margin-top: 40px;
@@ -706,12 +713,6 @@ Stylish Part Start
     padding: 5px 20px;
     border-color: white;
     border-width: 1px;
-}
-.stylish-part .download{
-    width: 100;
-    height: 20px;
-    margin: 0 auto;
-    padding-bottom: 20px;
 }
 .stylish-part .download   .btn:hover {
     background-color: rgb(255, 0, 0);
@@ -726,3 +727,142 @@ Stylish Part Start
 /* ****************************************
 Stylish Part Finish
 ******************************************* */
+/* ****************************************
+Contact Part Start
+******************************************* */
+.contact-part{
+    background-color: #FFFFFF;
+    padding:40px 0;
+}
+.contact-part .heading-box {
+    width: 45%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.contact-part .heading-box h1 {
+    color: rgb(33, 37, 41);
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.contact-part .heading-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+}
+
+.contact-part .heading-box .line {
+    width: 100px;
+    height: 3px;
+    margin: 20px 0px;
+    background-color: rgb(255, 139, 56);
+    border-radius: 5px;
+    margin: 25px auto;
+}
+.contact-part .form{
+    display: flex;
+    width: 100%;
+}
+.contact-part .form .input-field {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.contact-part .form .input-field input {
+    width: 80%;
+    margin: 18px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+.contact-part .form .input-field input::placeholder {
+    color: rgb(33, 37, 41);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-part .form .comment-part{
+    width: 50%;
+    margin-top:15px;
+}
+.contact-part .form .comment-part textarea{
+    border:none;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.contact-part .form .comment-part textarea::placeholder {
+    color: rgb(33, 37, 41);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-part .send-message{
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.contact-part .send-message .btn{
+    background-color: rgb(241, 126, 38);
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border-color: white;
+    width: 170px;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+.contact-part .send-message   .btn:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+}
+.contact-part .send-message   .btn:hover .send-message{
+    width: 200px;
+}
+/* ****************************************
+Contact Part Finish
+******************************************* */
+footer{
+    background-color: black;
+    color:#a4a5a8;
+    text-align: center;
+    padding:20px 0;
+}
+footer .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social-icons .val {
+    width: 80px;
+    height: 50px;
+    margin-top: 9px;
+}
+
+footer .social-icons a i {
+    font-size: 30px;
+    font-weight: 400;
+    color: #a4a5a8;
+    padding: 5px 10px;
+}
+
+footer .social-icons a i:hover {
+    color: rgb(0, 0, 255);
+    font-size: 50px;
+    transition: 0.2s;
+}
