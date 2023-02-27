@@ -3,7 +3,7 @@ const btn2=document.getElementById("tab2");
 const btn3=document.getElementById("tab3");
 
 // Buttton1
-document.getElementById('tab1').addEventListener('click',()=>{
+btn1.addEventListener('click',()=>{
     if(btn2.classList[1]=="active"){
         btn2.classList.remove("active");
         btn1.classList.add("active")
@@ -20,7 +20,7 @@ document.getElementById('tab1').addEventListener('click',()=>{
     }
 })
 // Buttton2
-document.getElementById('tab2').addEventListener('click',()=>{
+btn2.addEventListener('click',()=>{
     if(btn1.classList[1]=="active"){
         btn1.classList.remove("active");
         btn2.classList.add("active")
@@ -36,7 +36,7 @@ document.getElementById('tab2').addEventListener('click',()=>{
     }
 })
 // Buttton3
-document.getElementById('tab3').addEventListener('click',()=>{
+btn3.addEventListener('click',()=>{
     if(btn1.classList[1]=="active"){
         btn1.classList.remove("active");
         btn3.classList.add("active")
